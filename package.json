@@ -4,6 +4,17 @@
   "description": "Vite plugin that easiest way loads component files as asynchronous components.",
   "author": "Alex Liu <dsa1314@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/Mini-ghost/vite-async-component-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mini-ghost/vite-async-component-loader.git"
+  },
+  "bugs": "https://github.com/Mini-ghost/vite-async-component-loader/issues",
+  "keywords": [
+    "vite",
+    "vue",
+    "async-component"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
