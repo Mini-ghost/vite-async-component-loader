@@ -55,4 +55,4 @@ export default defineConfig({
 
 ## License
 
-[MIT License](https://github.com/Mini-ghost/vite-async-component-loader/blob/main/LICENSE) © 2022-PRESENT [Alex Liu](https://github.com/Mini-ghost)
+[MIT License](https://github.com/Mini-ghost/vite-async-component-loader/blob/main/LICENSE) © 2023-PRESENT [Alex Liu](https://github.com/Mini-ghost)
