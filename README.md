@@ -53,6 +53,14 @@ export default defineConfig({
 })
 ```
 
+## Use with TypeScript
+
+We provide a `vite-async-component-loader/client` type declaration file for TypeScript users. You can create an env.d.ts in the src directory so TypeScript picks up the type definitions:
+
+```ts
+/// <reference types="vite-async-component-loader/client" />
+```
+
 ## License
 
 [MIT License](https://github.com/Mini-ghost/vite-async-component-loader/blob/main/LICENSE) © 2023-PRESENT [Alex Liu](https://github.com/Mini-ghost)

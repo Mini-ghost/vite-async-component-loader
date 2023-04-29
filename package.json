@@ -27,6 +27,7 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
+    "client.d.ts",
     "LICENSE"
   ],
   "scripts": {
