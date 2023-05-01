@@ -1,26 +1,29 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@antfu/eslint-config': ^0.38.5
-  '@types/node': ^18.16.2
-  eslint: ^8.39.0
-  esno: ^0.16.3
-  knitwork: ^1.0.0
-  tsup: ^6.7.0
-  typescript: ^5.0.4
-  vite: ^4.3.3
+importers:
 
-dependencies:
-  knitwork: 1.0.0
-
-devDependencies:
-  '@antfu/eslint-config': 0.38.5_iacogk7kkaymxepzhgcbytyi7q
-  '@types/node': 18.16.2
-  eslint: 8.39.0
-  esno: 0.16.3
-  tsup: 6.7.0_typescript@5.0.4
-  typescript: 5.0.4
-  vite: 4.3.3_@types+node@18.16.2
+  .:
+    specifiers:
+      '@antfu/eslint-config': ^0.38.5
+      '@antfu/utils': ^0.7.2
+      '@types/node': ^18.16.2
+      eslint: ^8.39.0
+      esno: ^0.16.3
+      knitwork: ^1.0.0
+      tsup: ^6.7.0
+      typescript: ^5.0.4
+      vite: ^4.3.3
+    dependencies:
+      knitwork: 1.0.0
+    devDependencies:
+      '@antfu/eslint-config': 0.38.5_iacogk7kkaymxepzhgcbytyi7q
+      '@antfu/utils': 0.7.2
+      '@types/node': 18.16.2
+      eslint: 8.39.0
+      esno: 0.16.3
+      tsup: 6.7.0_typescript@5.0.4
+      typescript: 5.0.4
+      vite: 4.3.3_@types+node@18.16.2
 
 packages:
 
@@ -118,6 +121,10 @@ packages:
       - jest
       - supports-color
       - typescript
+    dev: true
+
+  /@antfu/utils/0.7.2:
+    resolution: {integrity: sha512-vy9fM3pIxZmX07dL+VX1aZe7ynZ+YyB0jY+jE6r3hOK6GNY2t6W8rzpFC4tgpbXUYABkFQwgJq2XYXlxbXAI0g==}
     dev: true
 
   /@babel/code-frame/7.21.4:
